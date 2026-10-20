@@ -1,0 +1,45 @@
+.logo {
+  width: 60px;
+  padding: 20px;
+}
+
+h1 {
+  font font-weight: 900px;
+  font-size: 37px;
+  letter-spacing: .06;
+  font-family: "Inter", sans-serif;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;}
+
+  a {
+    color: grey;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    padding: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  .login  {
+    color: black;
+    padding: 10px
+  }
+
+  .sign__up {
+    border: none;
+    padding: 20px;
+    background-color:#6415ff;
+    color: white;
+    border-radius;
+    width: 150px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 25px ;
+
+}
