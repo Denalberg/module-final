@@ -59,8 +59,43 @@ h1 {
 }
 
 .nav__bar {
-
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: space-between;
+  
+  ;
 }
+
+.template__header{
+  font-size: 80px;
+  padding-top: 50px;
+}
+.purple {
+  color:#6415ff;}
+
+  .template__para {
+  font-size: 25px;
+  font-family: "inter", sans-serif ;
+  line-height: 50px;
+  }
+  #first__page{
+    display: flex;
+    justify-content: center;
+  }
+  .template__img {
+    width: 500px;
+    opacity: 0.5;
+  }
+
+  .customers {
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+    opacity: .7;
+  }
+
+  .sitting {
+    width: 900px;
+    padding:60px
+  }
