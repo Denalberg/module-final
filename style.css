@@ -108,6 +108,7 @@ h1 {
   }
 
   .email {
+    position: relative;
     width: 500px;
     height: 70px;
     border: solid  gray;
@@ -122,4 +123,20 @@ h1 {
   .trusted__customers {
 
     margin-top:  40px;
+  }
+
+  .email__button {
+    position: absolute;
+    font-size: 23px;
+    width: 150px;
+    padding: 8px;
+    margin-left: -200px;
+    margin-top: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  background-color: #6415ff;
+  color: white;
+    font-family: "inter", sans-serif
   }
