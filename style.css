@@ -177,7 +177,11 @@ align-items: center;
   .panel__first{
     border: solid;
     width: 500px;
-    align-: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
   }
 
   .shield {
@@ -186,18 +190,24 @@ align-items: center;
     border-radius: 50%;
     padding: 20px;
     border-color: #e5e7eb;
+    position: absolute;
+    margin-left: -300px;
     
   }
 .features__h2 {
-  font-size: 50px;
+  font-size: 40px;
   color:#243e63 ;
+  font-family: "inter", sans-serif;
 }
 
 .features__para {
   color: rgb(124, 139, 161);
-  font-size: 26px;
+  font-size: 25px;
   letter-spacing: 2px;
   font-family: "inter", sans-serif;
-  text-align: center
+  margin-left: 180px;
+  line-height: 40px;
+  margin-top: -30px;
+  font-weight: 133px;
 ;
 }
