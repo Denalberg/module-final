@@ -174,3 +174,30 @@ align-items: center;
     text-align: center;
     line-height: 50px;
   }
+  .panel__first{
+    border: solid;
+    width: 500px;
+    align-: center;
+  }
+
+  .shield {
+    width: 50px;
+    border: solid 3px;
+    border-radius: 50%;
+    padding: 20px;
+    border-color: #e5e7eb;
+    
+  }
+.features__h2 {
+  font-size: 50px;
+  color:#243e63 ;
+}
+
+.features__para {
+  color: rgb(124, 139, 161);
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-family: "inter", sans-serif;
+  text-align: center
+;
+}

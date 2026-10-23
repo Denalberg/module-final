@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "module-final",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "module-final"
+  }
+}
