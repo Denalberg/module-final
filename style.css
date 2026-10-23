@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 /* Nav Bar */
 
 .logo {
@@ -173,14 +175,15 @@ align-items: center;
     font-size: 30px;
     text-align: center;
     line-height: 50px;
+    font-family: "inter", sans-serif;
   }
-  .panel__first{
+  .panel__first,.panel__second{
     border: solid;
     width: 500px;
     display:flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content:;
     position: relative;
   }
 
@@ -207,7 +210,8 @@ align-items: center;
   font-family: "inter", sans-serif;
   margin-left: 180px;
   line-height: 40px;
-  margin-top: -30px;
-  font-weight: 133px;
-;
+  margin-top: -10px;
+  font-weight: 500;
+
 }
+
