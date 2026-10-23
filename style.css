@@ -244,5 +244,19 @@ font-size: 50px;
   font-family: "inter", sans-serif;
   font-size: 40px;}
 
-
+.features__list {
   
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    width:fit-content;
+    border: solid;
+   
+}
+  #features {
+    border: solid;
+    align-items: center;
+    justify-content: center;
+  ;
+  }
