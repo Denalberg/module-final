@@ -8,7 +8,7 @@
 }
 
 h1 {
-  font font-weight: 900px;
+  font-weight: 900px;
   font-size: 37px;
   letter-spacing: .06;
   font-family: "Inter", sans-serif;
@@ -177,8 +177,8 @@ align-items: center;
     line-height: 50px;
     font-family: "inter", sans-serif;
   }
-  .panel__first,.panel__second,.panel__third,.panel__fourth{
-    border: solid;
+  .panel__first,.panel__second,.panel__third,.panel__fourth,.panel__fifth,.panel__sixth{
+    border: none;
     width: 500px;
     display:flex;
     flex-direction: column;
@@ -229,3 +229,20 @@ align-items: center;
   color:#243e63 ;
   font-family: "inter", sans-serif;
   font-size: 40px;}
+
+  .features__h2__five{
+    font-size: 50px;
+  margin-left: -60px;
+  color:#243e63 ;
+  font-family: "inter", sans-serif;
+  font-size: 40px;}
+  
+  .features__h2__six {
+font-size: 50px;
+  margin-left: -60px;
+  color:#243e63 ;
+  font-family: "inter", sans-serif;
+  font-size: 40px;}
+
+
+  
