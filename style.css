@@ -311,6 +311,7 @@ font-size: 50px;
     border: solid  1px #7c8ba1;
     width: 100%;
     box-sizing: border-box;
+    position: relative;
 
 }
 
@@ -321,7 +322,11 @@ font-size: 50px;
     gap: 300px;
   }
 
-  .quality__grid{
-    z-index: 12;
-  }
+ .quality__grid {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  right: 0;
+  bottom: 0;
+  fill: #6415ff;}
   
