@@ -333,6 +333,39 @@ z-index:-1;
 
 .quality:hover{
   cursor: pointer;
-  background-color:#380994
+  background-color:#3e1197
 }
   
+
+/* Steps */
+
+.steps__image{
+  position: relative;
+}
+.steps__grid {
+  height: 150px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: -450px;
+  z-index: -1;
+}
+
+.steps__page {
+  margin-top: 500px;
+  padding: 100px;
+}
+
+.steps__h2 {
+  color:#6415ff;
+  font-size: 30px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column
+  ;
+}
+
+.class__number{
+  padding: 30
+}
