@@ -507,7 +507,8 @@ background-color: #feb2b2;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-font-weight: bold;
+   font-weight: bold;
+   width: 300px
 }
 
 .prototype{
