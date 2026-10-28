@@ -312,6 +312,7 @@ font-size: 50px;
     width: 100%;
     box-sizing: border-box;
     position: relative;
+    
 }
 
   #quality__work{
@@ -341,31 +342,72 @@ z-index:-1;
 
 .steps__image{
   position: relative;
+  height: 600px
 }
 .steps__grid {
-  height: 150px;
+  height: 200px;
   position: absolute;
-  margin-top: 350px;
-  margin-left: -450px;
+  margin-top: 550px;
+  margin-left: -630px;
   z-index: -1;
 }
 
-.steps__page {
+.steps__page{ 
+  display: flex;
   margin-top: 500px;
-  padding: 100px;
+  align-items: center;
+  justify-content: center
+;
 }
+
+
 
 .steps__h2 {
   color:#6415ff;
   font-size: 30px;
+ 
 }
 
 .steps {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  justify-content: center
   ;
 }
 
-.class__number{
-  padding: 30
+.class__number1,.class__number2,.class__number3{
+  font-size: 60px ;
+  padding: 30px
+  
+  ;
+}
+
+.class__description {
+  margin-left: 150px;
+  font-family: "inter", sans-serif; 
+  font-size: 20px;
+  padding: 24px;
+  margin-top: -110px;
+
+
+}
+
+.steps__h1
+{font-size: 80px;
+}
+
+.class__step--title {
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.steps__whole {
+  margin-left:500px ;
+  margin-top: -150px;
+  display: flex;
+  flex-direction: column;
+}
+.steps__text {
+margin-left: 35px;
 }
