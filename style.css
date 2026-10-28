@@ -374,6 +374,7 @@ font-size: 50px;
 .steps__h2 {
   color:#6415ff;
   font-size: 30px;
+  font-family: "inter", sans-serif; 
  
 }
 
@@ -386,8 +387,8 @@ font-size: 50px;
 
 .class__number1,.class__number2,.class__number3{
   font-size: 60px ;
-  padding: 30px
-  
+  padding: 30px;
+  color:#cbd5e0
   ;
 }
 
@@ -397,6 +398,8 @@ font-size: 50px;
   font-size: 20px;
   padding: 24px;
   margin-top: -110px;
+  color: #718096;
+  line-height: 40px;
 
 
 }
@@ -409,6 +412,7 @@ font-size: 50px;
   margin-bottom: 40px;
   font-size: 36px;
   font-weight: bold;
+  color:#243e63
 }
 
 .steps__whole {
@@ -419,4 +423,93 @@ font-size: 50px;
 }
 .steps__text {
 margin-left: 35px;
+}
+
+/* values */
+
+.h2__values{
+  color:#6415ff;
+  font-size: 30px;
+  font-family: "inter", sans-serif; 
+}
+
+.h1__values {
+  color: rgb(36, 62, 99)
+(36, 62, 99);
+  font-size: 60px;
+  font-family: "inter", sans-serif; 
+ 
+}
+
+.para__values {
+  font-family: "inter", sans-serif;
+  font-size: 25px;
+  color:#7c8ba1; 
+  line-height: 40px;
+  margin-bottom: 70px;
+}
+
+.values__icon--tag {
+  color:#243e63;
+  font-weight: bold;
+   font-family: "inter", sans-serif;
+   font-size: 30px;
+   position: relative;
+   margin-left: 80px;
+}
+
+.values__icon--one {
+ background-color: #9ae6b4;
+ border: none;
+ height:30px;
+ width: 30px;
+ border-radius: 50%;
+ padding: 10px;
+ position: absolute;
+}
+
+.values__icon--two {
+background-color: #feb2b2;
+ border: none;
+ height:30px;
+ width: 30px;
+ border-radius: 50%;
+ padding: 10px;
+ position: absolute;
+ stroke: rgb(155, 44, 44);
+}
+
+.values__items{
+  display: flex;
+}
+
+.values__item--para {
+  font-family:  "inter", sans-serif;
+  font-size: 25px;
+  color: #718096;
+  padding: 20px
+}
+
+.value__page {
+  display: flex;
+  margin-top: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.values__button {
+  font-size: 20px;
+  font-family:  "inter", sans-serif;
+  background-color:#6415ff; 
+  color: white;
+  padding:20px;
+  border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+font-weight: bold;
+}
+
+.prototype{
+  height: 700px
 }
