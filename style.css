@@ -307,13 +307,21 @@ font-size: 50px;
     font-family: "inter", sans-serif; 
   }
 
+.hero__1{
+  width: 900px
+}
+
   .quality__image {
     border: solid  1px #7c8ba1;
-    width: 100%;
-    box-sizing: border-box;
     position: relative;
+
+  }
+  
+
+
+
     
-}
+
 
   #quality__work{
     display: flex;
@@ -322,14 +330,15 @@ font-size: 50px;
     gap: 200px;
   }
 
+
  .quality__grid {
   position: absolute;
-  height: 250px;
+  height: 100px;
   right: 0;
   bottom: 0;
   fill: #6415ff;
   transform: translate(50%, 50%);
-z-index:-1;
+  z-index:-1;
 }
 
 .quality:hover{
