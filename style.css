@@ -514,3 +514,30 @@ background-color: #feb2b2;
 .prototype{
   height: 700px
 }
+
+/* pricing */
+
+.pricing__text {
+display: flex;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__panels {
+  border: solid 1px grey;
+  width: 200px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.top__line {
+width: 100%
+  
+}
+
+.second__line {
+  width: 100%
+}
