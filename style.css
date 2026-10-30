@@ -434,8 +434,7 @@ margin-left: 35px;
 }
 
 .h1__values {
-  color: rgb(36, 62, 99)
-(36, 62, 99);
+  color: rgb(36, 62, 99);
   font-size: 60px;
   font-family: "inter", sans-serif; 
  
@@ -517,28 +516,104 @@ background-color: #feb2b2;
 
 /* pricing */
 
+.pricing__page {
+  margin-top: 700px;
+}
+
 .pricing__text {
 display: flex;
 flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 150px;
 }
 
-.pricing__panels {
-  border: solid 1px grey;
-  width: 200px;
+.pricing__title {
+  font-size: 35px;
+  color:#6415ff ;
+font-family:  "inter", sans-serif;
+   align-items: center;
+   justify-content: center;}
+
+  .second__title {
+    font-size: 70px;
+    color:rgb(36, 62, 99);
+    font-family:  "inter", sans-serif; 
+  }
+    
+    .pricing__para {
+       font-family:  "inter", sans-serif;
+        font-size: 25px;
+
+    }
+
+.pricing__panels1 {
+  border: solid 2px grey;
+  width: 500px;
   padding: 50px;
   display: flex;
   flex-direction: column;
-  
+  align-items:center ;
+  height: 800px;
+  border-top: solid 20px rgb(56, 178, 172);
+  border-radius: 10px;
 }
 
 .top__line, .second__line {
 width: calc(100% + 100px);
-  margin-left: -50px;
+  margin-left: -250px;
   margin-right: -50%;
-  box-sizing: border-box;
+  box-sizing: border-box;}
+  
+.personal {
+  font-size: 40px;
+  font-weight: bold;
+   font-family:  "inter", sans-serif;
+  
 }
 
+.personal__price {
+  font-size: 70px ;
+  margin-top: -15px;
+}
 
+.monthly {
+  font-family:  "inter", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  margin-top: -20px;
+  margin-bottom: 60px;
+  color:#718096;
+  font-weight: bold;
+}
+
+.pricing__for {
+  font-size:30px;
+  font-family:  "inter", sans-serif;
+  letter-spacing: 1.5;
+}
+
+.individuals {
+  list-style: none;
+  margin-left: -40px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 25px;
+  color:#718096;
+  font-family:  "inter", sans-serif;
+   margin-top: -15px;
+}
+
+.personal__button {
+  margin-top: 70px;
+  font-size: 20px;
+  border: none;
+  padding: 20px;
+  width: 400px;
+   border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color:rgb(56, 178, 172) ;
+    color: white;
 }
