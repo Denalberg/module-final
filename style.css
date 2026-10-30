@@ -544,6 +544,8 @@ font-family:  "inter", sans-serif;
     .pricing__para {
        font-family:  "inter", sans-serif;
         font-size: 25px;
+        color:#718096;
+        text-align: center;
 
     }
 
@@ -554,7 +556,7 @@ font-family:  "inter", sans-serif;
   display: flex;
   flex-direction: column;
   align-items:center ;
-  height: 800px;
+  height: 900px;
   border-top: solid 20px rgb(56, 178, 172);
   border-radius: 10px;
 }
@@ -617,3 +619,65 @@ width: calc(100% + 100px);
     background-color:rgb(56, 178, 172) ;
     color: white;
 }
+.pricing__panels2 {
+  border: solid 2px grey;
+  width: 500px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  height: 900px;
+background-color:rgb(89, 89, 180) ;
+  border-radius: 10px;}
+
+  .business {
+  font-size: 40px;
+  font-weight: bold;
+   font-family:  "inter", sans-serif;
+  color:white}
+
+   .personal__price2 {
+  font-size: 70px ;
+  margin-top: -15px;
+color: white}
+
+  .monthly2 {
+  font-family:  "inter", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  margin-top: -20px;
+  margin-bottom: 60px;
+  color:white;
+  font-weight: bold;}
+
+  .pricing__for2 {
+  font-size:30px;
+  font-family:  "inter", sans-serif;
+  letter-spacing: 1.5;
+  color:white;
+}
+.individuals2 {
+  list-style: none;
+  margin-left: -40px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 25px;
+  color:#718096;
+  font-family:  "inter", sans-serif;
+   margin-top: -15px;
+   color: white;
+}
+
+.personal__button2 {
+  margin-top: 70px;
+  font-size: 20px;
+  border: none;
+  padding: 20px;
+  width: 400px;
+   border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color:white ;
+    color: #6415ff;
+  font-weight: bold;}
