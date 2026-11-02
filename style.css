@@ -33,7 +33,7 @@ h1 {
     padding: 30px;
     font-weight: bolder;
     text-decoration: none;
-    
+    transform: transition .3s ease;
     
     
   }
