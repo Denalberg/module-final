@@ -811,3 +811,132 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   justify-content: center;
   gap: 40px
 }
+
+/* Testimonials */
+
+
+.testimonials__container {
+  margin-top: 600px;
+}
+
+.test__h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family:  "inter", sans-serif;
+  letter-spacing: 1.5px;
+  color:#6415ff;}
+
+  .test__h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family:  "inter", sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 900;
+  
+  }
+
+  .test__para {
+  font-size: 20px;
+  font-family:  "inter", sans-serif;
+  letter-spacing: 1.5px;
+  color:#718096;
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 25pox;
+  margin-top: 50px
+  }
+
+  .testimonial__rating {
+  color:rgba(246, 173, 85);
+  margin-top:60px;
+  font-size: 25px;
+}
+
+.test__h3 {
+  color:#4a5568;
+  font-family:  "inter", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.test__para2 {
+  font-family:  "inter", sans-serif;
+  letter-spacing: 1.5px;
+  color:#718096;
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.test__pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.pic__h {
+  font-family:  "inter", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  color:#4a5568
+}
+
+.pic__p {
+  font-family:  "inter", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color:#718096;
+  line-height: 40px;
+  font-weight: 600;
+  margin-top: -20px
+}
+
+.left__button, .right__button {
+  height: 70px;
+  width:70px;
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  transition: transform .3s ease;
+}
+
+.left__tag, .right__tag {
+  height: 30px
+}
+
+.left__button:hover, .right__button:hover {
+  cursor: pointer;
+  background-color: #b2b6bd;
+}
+
+.testimonials__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.love__pic{
+  height: 500px
+}
+
+.test__people {
+  display: flex;
+  align-items:center;
+  justify-content:flex-start;
+}
+.pic__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.test__whole {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ 
