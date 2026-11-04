@@ -966,6 +966,8 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   padding: 100px;
   background-color: rgb(100, 21, 255);
   position: relative;
+  overflow: hidden;
+  
   
 }
 
@@ -1038,4 +1040,12 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   height:400px;
   margin-bottom: -200px;
   margin-left: -1500px;
+}
+
+.start__blob--2 {
+  position: absolute;
+  height:400px;
+  margin-top: -600px;
+  margin-right: -1500px;
+
 }
