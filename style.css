@@ -38,12 +38,27 @@ h1 {
     
   }
 
-  a:hover {
-    text-decoration: underline #6415ff;
-    text-underline-offset: 10px;
-     text-decoration-thickness: 3px;
-   transition: transform 1s ease;
+  .landing__links a {
+  position: relative;
 }
+
+.landing__links a::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  width: calc(100% - 60px);
+  height: 3px;
+  background-color: #6415ff;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease;
+}
+
+.landing__links a:hover::after {
+  transform: scaleX(1);
+}
+
   
 
   .login  {
@@ -940,4 +955,71 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   align-items: center;
 }
 
+/* Bottom Box */
+
+.bottom__content {
+  border: none;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1500px;
+  padding: 100px;
+  background-color: rgb(100, 21, 255);
+}
+
+.bottom__box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+
+}
+
+.bottom__buttons {
+  display: flex;
+  gap: 40px;
+}
+
+.bottom__h1 {
+  font-size: 40px;
+  font-family:  "inter", sans-serif;
+  color: white;
+}
+
+
+.bottom__one {
+  border:none;
+  background-color: rgb(245, 101, 101);
+  font-size: 25px;
+  font-family:  "inter", sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 30px;
+  border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+}
  
+.bottom__two {
+  border: 2px solid white;
+  background-color: rgb(100, 21, 255);
+  font-size: 25px;
+  font-family:  "inter", sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 30px;
+  border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;  
+    transition: transform 10s ease;
+}
+
+.bottom__two:hover {
+  background-color: white;
+  color:rgb(100, 21, 255);
+  
+}
