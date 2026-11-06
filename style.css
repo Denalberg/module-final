@@ -1062,9 +1062,12 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
 .whole__footer {
   margin-top: 200px;
   background-color: rgb(100, 21, 255);
-  padding: 100px;
+  padding: 20px;
   display: flex;
-  ;
+  align-items: center;
+  justify-content: space-evenly;
+  
+   
   
 }
 
@@ -1072,7 +1075,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
 
 
 
-  .foot__main, .foot__prod {
+  .foot__main, .foot__prod, .foot__press, .foot__team, .foot__legal {
     font-family:  "inter", sans-serif;
     font-size: 25px;
     color: white;
@@ -1081,7 +1084,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
     
   }
 
-.foot__main--links, .foot__main--product {
+.foot__main--links, .foot__main--product, .foot__press--links, .foot__team--links, .foot__legal--links {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -1090,7 +1093,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
 
 
 
-.foot__main--links li, .foot__main--product li {
+.foot__main--links li, .foot__main--product li, .foot__press--links li, .foot__team--links li, .foot__legal--links li {
   margin-bottom: 30px;
   font-family:  "inter", sans-serif;
   font-size: 20px;
@@ -1098,4 +1101,59 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   cursor: pointer;
   width : 100px;
   font-weight: 30px
+}
+
+.footer__complete {
+   background-color: rgb(100, 21, 255);
+   padding : 20px;
+  
+}
+
+.foot__line {
+  border: none;
+  border-top: 1px solid rgb(64, 14, 163);
+  width: 75%;
+}
+
+.facebook, .twitter, .triangle{
+  height:20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    ;
+}
+
+.foot__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.foot__logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.light__logo {
+  height: 50px;
+  
+}
+
+.foot__socials a{
+  padding-left: 30px;
+  
+}
+
+
+.foot__copy {
+  font-family:  "inter", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.foot__socials {
+  margin-left: 600px;
 }
