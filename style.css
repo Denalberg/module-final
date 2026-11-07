@@ -1223,6 +1223,19 @@ text-underline-offset: 10px;}
   justify-content: center;
 }
 
+.templates__text {
+  text-align: center;
+}
+
+.template__email {
+  justify-content: center;
+  text-align: center;
+}
+
+
+.trusted__customers {
+  text-align: center;
+}
 .sitting__image {
   width: 100%;
 } 
