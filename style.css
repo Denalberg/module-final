@@ -1266,4 +1266,44 @@ text-underline-offset: 10px;}
     .hero__1 {
       width: 100%;
     }
+
+
+.steps__page {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps__whole {
+  margin: 200px;
+}
+
+.steps__text {
+  text-align: center;
+}
+.value__page {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.values__text {
+  text-align: center;
+}
+
+.values__button {
+  display: block;
+  margin: 0 auto;
+}
+
+.values__items {
+  margin-bottom: 30px;
+}
+
+.values__image {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
 }
