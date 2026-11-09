@@ -90,12 +90,42 @@ h1 {
     border-bottom-right-radius: 30px;
     font-size: 25px ;
     cursor: pointer;
+    position: relative;
 
 }
 
 .sign__up:hover {
   background-color: #3e1197;
 }
+
+.menu{
+  display: none;
+  position: absolute;
+  right: 0;
+
+  
+}
+
+
+.btn__menu--svg {
+  
+  width: 64px;
+  height: 64px;
+}
+
+.btn__menu {
+  border: none;
+  background: none;
+  cursor: pointer;
+   }
+
+   .btn__menu:hover {
+    color: #6415ff;
+   }
+
+   .menu__backdrop {
+    display: none;
+   }
 
 .nav__bar {
   display: flex;
@@ -1306,4 +1336,31 @@ text-underline-offset: 10px;}
   justify-content: center;
   margin-top: 100px;
 }
+
+.pricing__all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.second__title {
+  text-align: center;
+}
+
+.testimonials__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials__text {
+  text-align: center;
+}
+
+.menu{
+  display: flex;
+}
+
 }
