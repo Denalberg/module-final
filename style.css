@@ -122,10 +122,29 @@ h1 {
    .btn__menu:hover {
     color: #6415ff;
    }
+.menu__backdrop {
+    display:none;}
 
-   .menu__backdrop {
-    display: none;
-   }
+
+
+.menu--open .menu__backdrop {
+  display: flex;
+  flex-direction: column;
+}
+   
+.menu__links a{
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  color: #4a5568;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+
 
 .nav__bar {
   display: flex;
