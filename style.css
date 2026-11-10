@@ -102,6 +102,7 @@ h1 {
   display: none;
   position: absolute;
   right: 0;
+  top: 30px;
 
   
 }
@@ -123,15 +124,26 @@ h1 {
     color: #6415ff;
    }
 .menu__backdrop {
-    display:none;}
+    display:none;
+
+    
+  }
 
 
 
 .menu--open .menu__backdrop {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50vh;
+  background-color: white;
+  padding: 20px;
+  
+  ;
 }
-   
+
 .menu__links a{
   text-decoration: none;
   font-size: 30px;
@@ -142,7 +154,30 @@ h1 {
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+  text-align: center;
+  padding: 15px;
+  
 
+}
+
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.menu__link--primary {
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: #6415ff;
+  width: 150px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
 }
 
 
