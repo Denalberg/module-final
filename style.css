@@ -465,23 +465,23 @@ font-size: 50px;
   }
 
 .hero__1{
-  width: 900px
+  
+   display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    
 }
 
   .quality__image {
     border: solid  1px #7c8ba1;
     position: relative;
-
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: auto;
   }
-  .whole__page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-  }
-
-
+  
 
     
 
@@ -489,9 +489,17 @@ font-size: 50px;
   #quality__work{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 200px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  gap: 100px;px;
   }
+  
+  
+   
+  
 
 
  .quality__grid {
