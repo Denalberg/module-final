@@ -23,7 +23,7 @@ h1 {
 }
 
   .landing__links {
-    margin-left: 900px
+    margin-left: auto;
   }
 
   .landing__links a {
