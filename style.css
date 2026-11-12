@@ -405,12 +405,9 @@ font-size: 50px;
     gap: 32px;
     width: 100%;
     max-width: 1200px;
-    padding: 0;;
-    
     margin: 0 auto;
-    
-   
-}.features__page{
+  
+  }.features__page{
   margin-bottom: 300px;
   }
 
