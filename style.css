@@ -1011,9 +1011,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   
   
 }
-.testimonials__text {
-git add .
-}
+
 
   
 
@@ -1041,12 +1039,11 @@ git add .
   line-height: 40px;
   font-weight: 600;
   font-size: 25px;
-  margin-top: 0px
+
   }
 
   .testimonial__rating {
   color:rgba(246, 173, 85);
-  margin-top:0px;
   font-size: 25px;
 }
 
@@ -1064,14 +1061,14 @@ git add .
   line-height: 40px;
   font-weight: 600;
   font-size: 20px;
-  margin-top: 0px;
+
 }
 
 .test__pic {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin-top: 30px;
+ 
 }
 
 .pic__h {
@@ -1098,7 +1095,7 @@ git add .
   border: none;
   padding: 10px;
   margin: 20px;
-  transition: transform .3s ease;
+  transition: transform .3s ease, background-color .3s ease;
 }
 
 .left__tag, .right__tag {
