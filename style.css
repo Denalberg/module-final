@@ -1474,6 +1474,21 @@ text-underline-offset: 10px;}
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
+}
+
+.pricing__panels3{
+  z-index: 1;
+  background-color: white;
+  
+}
+
+.plans__blob{
+  position: absolute;
+  margin-left: -500px;
+  height: 500px;
+  z-index: -1;
+  margin-bottom: -2500px;
 }
 
 .second__title {
