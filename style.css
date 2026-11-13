@@ -1034,7 +1034,7 @@ git add .
   }
 
   .test__para {
-  font-size: 20px;
+  font-size: 10px;
   font-family:  "inter", sans-serif;
   letter-spacing: 1.5px;
   color:#718096;
@@ -1063,7 +1063,7 @@ git add .
   color:#718096;
   line-height: 40px;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 10px;
   margin-top: 50px;
 }
 
