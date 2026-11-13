@@ -1348,6 +1348,7 @@ text-underline-offset: 10px;}
 
 .foot__socials a{
   padding-left: 30px;
+  position: relative;
   
 }
 
