@@ -1018,14 +1018,14 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   
 
 .test__h2 {
-  font-size: 30px;
+  font-size:25px;
   font-weight: bold;
   font-family:  "inter", sans-serif;
   letter-spacing: 1.5px;
   color:#6415ff;}
 
   .test__h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   font-family:  "inter", sans-serif;
   letter-spacing: 1.5px;
@@ -1040,7 +1040,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   color:#718096;
   line-height: 40px;
   font-weight: 600;
-  font-size: 25pox;
+  font-size: 25px;
   margin-top: 50px
   }
 
@@ -1117,7 +1117,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
 }
 
 .love__pic{
-  height: 500px
+  height: 300px
 }
 
 .test__people {
