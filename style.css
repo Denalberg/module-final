@@ -1012,7 +1012,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   
 }
 .testimonials__text {
-  margin-left: -210px;
+  margin-left: 0px;
 }
 
   
@@ -1117,7 +1117,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
 }
 
 .love__pic{
-  height: 300px
+  height: 300px;
 }
 
 .test__people {
