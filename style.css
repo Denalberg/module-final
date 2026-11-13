@@ -1271,6 +1271,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
     margin-bottom: 30px;
     font-weight: bold;
     z-index: 5;
+    position: relative;
     
   }
 
@@ -1279,6 +1280,8 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   margin: 0;
   padding: 0;
   z-index: 5;
+  position: relative;
+  
   
   
 }
