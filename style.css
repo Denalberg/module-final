@@ -1041,12 +1041,12 @@ git add .
   line-height: 40px;
   font-weight: 600;
   font-size: 25px;
-  margin-top: 50px
+  margin-top: 0px
   }
 
   .testimonial__rating {
   color:rgba(246, 173, 85);
-  margin-top:60px;
+  margin-top:0px;
   font-size: 25px;
 }
 
@@ -1063,8 +1063,8 @@ git add .
   color:#718096;
   line-height: 40px;
   font-weight: 600;
-  font-size: 10px;
-  margin-top: 50px;
+  font-size: 20px;
+  margin-top: 0px;
 }
 
 .test__pic {
