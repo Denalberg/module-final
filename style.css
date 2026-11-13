@@ -994,15 +994,28 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
 .pricing__all{
   display: flex;
   justify-content: center;
-  gap: 40px
+  gap: 40px;
+  margin-bottom: 500px;
 }
 
 /* Testimonials */
 
 
 .testimonials__container {
-  margin-top: 600px;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  
+ 
+  
+  
 }
+.testimonials__text {
+  margin-left: -210px;
+}
+
+  
 
 .test__h2 {
   font-size: 30px;
