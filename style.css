@@ -1528,8 +1528,28 @@ width: calc(100% + 100px);
   box-sizing: border-box;
    border-color: #718096}
   
-     }
 
+   .start__blob--1 {
+    margin-left: -500px;
+    margin-bottom: -500px;
+   }
+
+   .start__blob--2 {
+    margin-left: -500px;
+    margin-bottom: 500px;
+   }
+
+
+   .footer__blob--1 {
+    margin-left: -500px;
+   }
+  
+   .footer__blob--2 {
+    margin-left: 600px;
+    margin-top: 500px;
+   }
+  
+  }
 @media (max-width: 480px) {
 
   .templates__page {
