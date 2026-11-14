@@ -1530,12 +1530,12 @@ width: calc(100% + 100px);
   
 
    .start__blob--1 {
-    margin-left: 0px;
+    margin-left: -200px;
     margin-bottom: -500px;
    }
 
    .start__blob--2 {
-    margin-left: -200px;
+    margin-left: 0px;
     margin-bottom: 600px;
    }
 
