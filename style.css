@@ -1541,12 +1541,12 @@ width: calc(100% + 100px);
 
 
    .footer__blob--1 {
-    margin-left: -900px;
+    margin-left: -1000px;
 
    }
   
    .footer__blob--2 {
-    margin-left: 900px;
+    margin-left:0px;
     margin-top: 500px;
    }
 
