@@ -1535,7 +1535,7 @@ width: calc(100% + 100px);
    }
 
    .start__blob--2 {
-    margin-left: 500px;
+    margin-left: 0px;
     margin-bottom: 600px;
    }
 
@@ -1546,7 +1546,7 @@ width: calc(100% + 100px);
    }
   
    .footer__blob--2 {
-    margin-left:0px;
+    margin-left: 1000px;
     margin-top: 500px;
    }
 
