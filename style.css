@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /* Nav Bar */
 
 .logo {
@@ -1652,12 +1656,12 @@ width: calc(100% + 100px);
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-left: 100px;
-      padding: 190px;
+      margin-left: 0;
+      padding: 60px 24px;
     }
 
     #footer {
-      margin-left: 100px;
+   
       
     }
       
@@ -1674,6 +1678,6 @@ width: calc(100% + 100px);
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 100px;
+        margin: 32px 0;
       }
   }
