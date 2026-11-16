@@ -1537,14 +1537,14 @@ text-underline-offset: 10px;}
 .top__line2, .second__line2 {
 width: calc(100% + 100px);
   margin-left: -250px;
-  margin-right: -51%;
+  margin-right: -5%;
   box-sizing: border-box;
    border-color:  blue;}
 
      .top__line, .second__line {
 width: calc(100% + 100px);
   margin-left: -250px;
-  margin-right: -51%;
+  margin-right: -5%;
   box-sizing: border-box;
    border-color: #718096}
   
