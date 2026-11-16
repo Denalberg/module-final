@@ -7,7 +7,7 @@
 /* Nav Bar */
 
 .logo {
-  width: 60px;
+  height: 60px;
   padding: 20px;
 }
 
@@ -1509,6 +1509,13 @@ text-underline-offset: 10px;}
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.love__pic {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .testimonials__text {
