@@ -352,7 +352,7 @@ align-items: center;
   }
 
   .shield {
-    width: 50px;
+    width: 88px;
     border: solid 3px;
     border-radius: 50%;
     padding: 20px;
@@ -778,14 +778,14 @@ font-family:  "inter", sans-serif;
 .top__line2, .second__line2 {
 width: calc(100% + 100px);
   margin-left: -250px;
-  margin-right: -61%;
+  margin-right: ;
   box-sizing: border-box;
    border-color:  blue;}
 
    .top__line, .second__line {
 width: calc(100% + 100px);
   margin-left: -250px;
-  margin-right: -61%;
+  margin-right:%;
   box-sizing: border-box;
    border-color: #718096}
   
