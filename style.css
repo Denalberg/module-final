@@ -317,6 +317,8 @@ h1 {
     flex-direction: column;
 justify-content: center;
 align-items: center;
+margin-bottom: 50px;
+
 
   }
 
@@ -714,6 +716,7 @@ flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+  margin-bottom: 50px;
 
 }
 
