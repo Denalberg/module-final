@@ -778,14 +778,14 @@ font-family:  "inter", sans-serif;
 .top__line2, .second__line2 {
 width: calc(100% + 100px);
   margin-left: -250px;
-  margin-right: ;
+  margin-right: -250px;
   box-sizing: border-box;
    border-color:  blue;}
 
    .top__line, .second__line {
 width: calc(100% + 100px);
   margin-left: -250px;
-  margin-right:%;
+  margin-right: -250px;
   box-sizing: border-box;
    border-color: #718096}
   
@@ -1321,7 +1321,7 @@ text-underline-offset: 10px;}
 }
 
 .facebook, .twitter, .triangle{
-  height:20px;
+  height:40px;
     background-color: white;
     padding: 10px;
     border-radius: 50%;
