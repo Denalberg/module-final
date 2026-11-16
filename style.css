@@ -1497,6 +1497,7 @@ text-underline-offset: 10px;}
 }
 
 .plans__blob{
+  visibility: hidden;
   position: absolute;
   margin-left: -500px;
   height: 500px;
