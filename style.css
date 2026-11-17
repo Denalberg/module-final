@@ -1592,7 +1592,7 @@ width: calc(100% + 100px);
   .sitting__image {
     height: auto;
     width: 100%;
-    margin: 100px;
+    margin: 0 auto;
    
   
     }
@@ -1618,7 +1618,7 @@ width: calc(100% + 100px);
     .quality__image {
       height: auto;
       width: 100%;
-      margin: 100px;
+      margin: 0 auto;
     }
 
     .steps__page {
@@ -1694,11 +1694,47 @@ width: calc(100% + 100px);
 }
 .h1__values, .h2__values, .para__values, .values__icon--tag, .values__item--para
 {
-font-size: 10px
+font-size: 20px;
+
 }
 
 .quality__h2, .quality__h1, .quality__para, .quality
 {
-  font-size: 10px
+  font-size: 20px
 
 } 
+
+.first__para, .features__head, .second__para, .features__h2, .features__para, .features__h2__two, .features__h2__three, .features__h2__four, .features__h2__five, .features__h2__six
+{
+  font-size: 20px;
+}
+
+ .class__number2, .class__number3, .class__description, .class__step--title,.steps__h1
+{
+  font-size: 20px;
+}
+
+.prototype, .steps__image {
+  height: 300px;}
+
+  .pricing__title, .second__title, .pricing__para, .personal, .personal__price, .monthly, .pricing__for, .individuals, .business, .personal__price2, .monthly2, .pricing__for2, .individuals2, .enterprise, .personal__price3, .monthly3, .pricing__for3, .individuals3
+  {
+    font-size: 20px;
+    
+  }
+  .pricing__title, .second__title, .pricing__para, .personal, .personal__price, .monthly, .pricing__for, .individuals, .business, .personal__price2, .monthly2, .pricing__for2, .individuals2, .enterprise, .personal__price3, .monthly3, .pricing__for3, .individuals3
+  {
+    font-size: 30px
+  }
+.test__h1, .test__h2, .test__para, .testimonial__rating, .test__h3, .test__para2, .pic__h, .pic__p
+{
+  font-size: 20px;
+}
+
+.templates__text, .trusted__customers, .features__text, .quality__text, .steps__text, .values__text, .pricing__text, .testimonials__text,.template__header { font-size: 20px;
+
+
+  }
+
+
+}
