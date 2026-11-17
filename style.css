@@ -1498,11 +1498,7 @@ text-underline-offset: 10px;}
 
 .plans__blob{
   visibility: hidden;
-  position: absolute;
-  margin-left: -500px;
-  height: 500px;
-  z-index: -1;
-  margin-bottom: -2500px;
+  
 }
 
 .second__title {
@@ -1676,13 +1672,10 @@ width: calc(100% + 100px);
       padding: 60px 24px;
     }
 
-    #footer {
-   
-      
-    }
+    
       
 
-    .whole__footer{
+    /* .whole__footer{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1695,5 +1688,28 @@ width: calc(100% + 100px);
         align-items: center;
         justify-content: center;
         margin: 32px 0;
-      }
-  }
+      } */
+  
+
+  .bottom__h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.bottom__one, .bottom__two {
+  width: 100%;
+  font-size: 16px;
+  padding: 16px;
+}
+
+
+.whole__footer, .foot__bottom {
+  text-align: center;
+  gap: 20px;
+}
+
+.features__page, .value__page,
+#pricing, .testimonials__container {
+  margin-left: 0;
+  margin-right: 0;}
+}
