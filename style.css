@@ -1692,6 +1692,13 @@ width: calc(100% + 100px);
   display: flex;
   flex-wrap: wrap;
 }
+.h1__values, .h2__values, .para__values, .values__icon--tag, .values__item--para
+{
+font-size: 10px
+}
 
+.quality__h2, .quality__h1, .quality__para, .quality
+{
+  font-size: 10px
 
 } 
