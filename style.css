@@ -541,7 +541,6 @@ font-size: 50px;
 .steps__image{
   position:relative ;
 margin-top: 400px;
-height:;
 width: 100%
 
  
@@ -1646,18 +1645,18 @@ width: calc(100% + 100px);
       justify-content: center;
       margin: -100px;
     }
+.steps__image {
+height: 200px;
 
-    .steps__images {
-      /* height:300px;
-      margin: 100px;
-  */margin: 0 ;
-  height: }
+}
+   
        .steps__grid {
   height: 300px;
   position: absolute;
   margin-top: 600px;
   margin-left: -00px;
   z-index: -1;
+  display: none;
     }
 
     .value__page {
@@ -1765,4 +1764,25 @@ font-size: 20px;
     min-height: 1200px;
 
 
-}}
+}
+.email__button {
+  margin-top: 100px;
+}
+.values__text{
+margin-right: 200px
+}
+
+.values__items {
+display: flex;
+flex-direction: column;
+margin-right: 200px
+}
+
+.values__button {
+  margin-right: 200px;
+}
+
+.prototype {
+  margin-right: 200px;
+}
+}
