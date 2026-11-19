@@ -213,10 +213,10 @@ h1 {
 
 .nav__bar {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  margin-left: 100px;
-  margin-right: 100px;
+ 
   
 
   /* first page */
@@ -549,7 +549,7 @@ width: 100%
   height: 300px;
   position: absolute;
   margin-top: 600px;
-  margin-left: -400px;
+  margin-left: -330px;
   z-index: -1;
 }
 
