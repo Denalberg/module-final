@@ -370,7 +370,7 @@ text-align: center;
     padding: 20px;
     border-color: #e5e7eb;
     position: absolute;
-    margin-left: -350px;
+    margin-left: -400px;
     
   }
 .features__h2 {
@@ -546,6 +546,7 @@ width: 100%
  
 }
 .steps__grid {
+  display: none;
   height: 300px;
   position: absolute;
   margin-top: 600px;
@@ -759,7 +760,7 @@ font-family:  "inter", sans-serif;
 
 .pricing__panels1 {
   border: solid 2px#718096;
-  width: 500px;
+  width:500px; 
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -772,6 +773,7 @@ font-family:  "inter", sans-serif;
 }
 
 .plans__blob{
+  display: none;
   position: absolute;
   margin-left: -1500px;
   height: 500px;
@@ -852,7 +854,7 @@ width: calc(100% + 100px);
   font-size: 20px;
   border: none;
   padding: 20px;
-  width: 400px;
+  width: 200px;
    border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -913,11 +915,11 @@ color: white}
 }
 
 .personal__button2 {
-  margin-top: 70px;
+  margin-top: 30px;
   font-size: 20px;
   border: none;
   padding: 20px;
-  width: 400px;
+  width: 200px;
    border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -993,11 +995,11 @@ position: relative;}
 }
 
 .personal__button3 {
-  margin-top: 70px;
+  margin-top: -1px;
   font-size: 20px;
   border: none;
   padding: 20px;
-  width: 400px;
+  width: 200px;
    border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -1019,10 +1021,16 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
   margin-bottom: 100px;
 }
-
+.pricing__panels1,
+.pricing__panels2,
+.pricing__panels3 {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 350px;
+}
 /* Testimonials */
 
 
