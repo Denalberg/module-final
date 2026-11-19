@@ -353,7 +353,7 @@ margin-bottom: 50px;
   }
   .panel__first,.panel__second,.panel__third,.panel__fourth,.panel__fifth,.panel__sixth{
     border: none;
-
+margin-left: 200px;
     max-width: 200px;
     display:flex;
     flex-direction: column;
@@ -432,8 +432,8 @@ font-size: 50px;
   
    display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 32px;
-    width: 100%;
+    gap: 80px;
+    width: 900px;
     max-width: 1200px;
     margin: 0 auto;
   
