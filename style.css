@@ -1391,25 +1391,7 @@ text-underline-offset: 10px;}
     z-index: 5;
   }
 
-  @media (min-width: 769px) and (max-width: 1200px) {
-  .all__elements,
-  #quality__work,
-  .steps__page,
-  .value__page,
-  .testimonials__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .sitting__image,
-  .quality__image,
-  .steps__image,
-  .love__pic {
-    max-width: 100%;
-    height: auto;
-  }
-}
+  
 
 @media (max-width:768px) {
     
@@ -1810,10 +1792,10 @@ margin-right: 200px
 }
 .pricing__title,.second__title,.pricing__para {
    font-size: 20px;
-   margin-right:200px;
+
 }
 .pricing__panels1,.pricing__panels2, .pricing__panels3 {
-margin-right: 170px;
+
 height: auto;
 width:100%;
 max-width: 300px;}
