@@ -1391,7 +1391,7 @@ text-underline-offset: 10px;}
     z-index: 5;
   }
 
-@media (max-width: 1500px) {
+@media (max-width:768px) {
     
   .logo {
     margin: 0 auto;
