@@ -1793,7 +1793,10 @@ margin-right: 200px
    margin-right:200px;
 }
 .pricing__panels1,.pricing__panels2, .pricing__panels3 {
-margin-right: 170px;}
+margin-right: 170px;
+height: auto;
+width:100%;
+max-width: 300px;}
 
 
 .love__pic{
@@ -1809,5 +1812,11 @@ margin-right: 200px;
   display:flex;
   flex-direction: column;
   margin-right:200px ;
+}
+
+.personal__button,.personal__button2,.personal__button3{
+
+  width: 250px
+
 }
 }
