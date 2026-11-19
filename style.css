@@ -1788,4 +1788,26 @@ margin-right: 200px
 .class__number1 {
   font-size: 60px;
 }
+.pricing__title,.second__title,.pricing__para {
+   font-size: 20px;
+   margin-right:200px;
+}
+.pricing__panels1,.pricing__panels2, .pricing__panels3 {
+margin-right: 170px;}
+
+
+.love__pic{
+  width: 100%;
+  margin-left: -100px;
+}
+
+.test__h2,.test__h1,.test__para,.test__h3,.test__para2,.testimonial__rating{
+font-size: 15px;
+margin-right: 200px;
+}
+.test__whole {
+  display:flex;
+  flex-direction: column;
+  margin-right:200px ;
+}
 }
