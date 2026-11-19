@@ -690,6 +690,7 @@ background-color: #feb2b2;
 
 .value__page {
   display: flex;
+  flex-wrap: wrap;
   margin:0 auto;
   align-items: center;
   justify-content: center;
