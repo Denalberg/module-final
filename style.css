@@ -1732,8 +1732,7 @@ font-size: 20px;
 {
   font-size: 20px;
 }
-
- .class__number2, .class__number3, .class__description, .class__step--title,.steps__h1
+ .class__description, .class__step--title,.steps__h1
 {
   font-size: 20px;
 }
@@ -1784,5 +1783,9 @@ margin-right: 200px
 
 .prototype {
   margin-right: 200px;
+}
+
+.class__number1 {
+  font-size: 60px;
 }
 }
