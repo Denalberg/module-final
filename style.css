@@ -486,7 +486,7 @@ font-size: 30px;
   
   
   
-    height: 500px;
+    height: 300px;
     
     
 }
@@ -539,7 +539,7 @@ font-size: 30px;
 
 /* Steps */
 .steps__image{
-  height: 600px
+  height: 400px
  
 }
 .steps__grid {
@@ -710,7 +710,7 @@ background-color: #feb2b2;
   margin: 0 auto;
   width: 100%;
   height: auto;
-  max-width: 1200px;
+  max-width: 1800px;
 }
 
 .pricing__text {
@@ -1016,9 +1016,9 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
 .pricing__panels2,
 .pricing__panels3 {
   box-sizing: border-box;
-  width: 500px; 
-  display: flex
-  ;
+  width: 30%; 
+  display: flex;
+  
 }
 /* Testimonials */
 
@@ -1451,9 +1451,7 @@ text-underline-offset: 10px;}
     align-items: center;}
 
 
-    .hero__1 {
-      width: 100%;
-    }
+
 
 
 .steps__page {
@@ -1645,10 +1643,10 @@ width: calc(100% + 100px);
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin: -100px;
+      
     }
 .steps__image {
-height: 200px;
+height: 280px;
 
 }
    
@@ -1718,39 +1716,21 @@ height: 200px;
   display: flex;
   flex-wrap: wrap;
 }
-.h1__values, .h2__values, .para__values, .values__icon--tag, .values__item--para
-{
-font-size: 20px;
 
-}
 
-.quality__h2, .quality__h1, .quality__para, .quality
-{
-  font-size: 20px
 
-} 
 
-.first__para, .features__head, .second__para, .features__h2, .features__para, .features__h2__two, .features__h2__three, .features__h2__four, .features__h2__five, .features__h2__six
-{
-  font-size: 20px;
-}
- .class__description, .class__step--title,.steps__h1
-{
-  font-size: 20px;
-}
+
+
+
+
+
 
 .prototype, .steps__image.sitting__image{
   height: 300px;}
 
-  .pricing__title, .second__title, .pricing__para, .personal, .personal__price, .monthly, .pricing__for, .individuals, .business, .personal__price2, .monthly2, .pricing__for2, .individuals2, .enterprise, .personal__price3, .monthly3, .pricing__for3, .individuals3
-  {
-    font-size: 20px;
-    
-  }
-  .pricing__title, .second__title, .pricing__para, .personal, .personal__price, .monthly, .pricing__for, .individuals, .business, .personal__price2, .monthly2, .pricing__for2, .individuals2, .enterprise, .personal__price3, .monthly3, .pricing__for3, .individuals3
-  {
-    font-size: 30px
-  }
+ 
+  
 .test__h1, .test__h2, .test__para, .testimonial__rating, .test__h3, .test__para2, .pic__h, .pic__p
 {
   font-size: 20px;
@@ -1790,10 +1770,9 @@ margin-right: 200px
 .class__number1 {
   font-size: 60px;
 }
-.pricing__title,.second__title,.pricing__para {
-   font-size: 20px;
 
-}
+
+
 .pricing__panels1,.pricing__panels2, .pricing__panels3 {
 
 height: auto;
@@ -1821,4 +1800,5 @@ margin-right: 200px;
   width: 250px
 
 }
+
 }
