@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 * {
   box-sizing: border-box;
-
 }
 
 /* Nav Bar */
@@ -213,15 +212,19 @@ h1 {
 
 .nav__bar {
   display: flex;
-  flex-wrap: ;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
  
-  
+}
 
   /* first page */
   
-  
+.templates__page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  ;
 }
 
 .template__header{
@@ -303,7 +306,7 @@ h1 {
     width: 150px;
     padding: 8px;
     margin-left: -170px;
-    margin-top: 15px;
+    margin-top: 10px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -439,6 +442,7 @@ font-size: 30px;
     display: flex;
     flex-direction: column;
     align-items: left;
+    ;
   
   
    
@@ -486,7 +490,7 @@ font-size: 30px;
   
   
   
-    height: 300px;
+    height: 500px;
     
     
 }
@@ -507,12 +511,12 @@ font-size: 30px;
   #quality__work{
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:center;
     text-align: left;
     margin: 0 auto;
     padding: 20px;
     max-width: 100%;
-  gap: 10x;
+  gap: 300px;
   flex-wrap: wrap;
   }
   
@@ -539,7 +543,7 @@ font-size: 30px;
 
 /* Steps */
 .steps__image{
-  height: 400px
+  height: 500px
  
 }
 .steps__grid {
@@ -555,10 +559,11 @@ font-size: 30px;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  justify-content:space-evenly ;
+  justify-content:center ;
   margin-top: 400px;
   margin-bottom: 400px;
 flex-wrap: wrap;
+gap: 200px;
 
   
 }
@@ -751,7 +756,7 @@ font-family:  "inter", sans-serif;
   display: flex;
   flex-direction: column;
   align-items:center ;
-  height: 900px;
+  height:900px ;
   border-radius: 10px;
   position: relative;
   z-index: 10;
@@ -836,7 +841,7 @@ width: calc(100% + 100px);
 }
 
 .personal__button {
-  margin-top: 70px;
+  margin-top: 30px;
   font-size: 20px;
   border: none;
   padding: 20px;
@@ -858,7 +863,7 @@ width: calc(100% + 100px);
   display: flex;
   flex-direction: column;
   align-items:center ;
-  height: 900px;
+  height:900px ;
 background-color:rgb(89, 89, 180) ;
   border-radius: 10px;}
 
@@ -901,7 +906,7 @@ color: white}
 }
 
 .personal__button2 {
-  margin-top: 30px;
+  margin-top: 30px ;
   font-size: 20px;
   border: none;
   padding: 20px;
@@ -924,7 +929,7 @@ color: white}
   display: flex;
   flex-direction: column;
   align-items:center ;
-  height: 900px;
+  height:900px ;
   border-top: solid 5px linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%); 
   border-radius: 10px;
 position: relative;}
@@ -981,7 +986,7 @@ position: relative;}
 }
 
 .personal__button3 {
-  margin-top: -1px;
+  margin-top: 30px;
   font-size: 20px;
   border: none;
   padding: 20px;
@@ -1016,8 +1021,9 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
 .pricing__panels2,
 .pricing__panels3 {
   box-sizing: border-box;
-  width: 30%; 
   display: flex;
+
+  
   
 }
 /* Testimonials */
@@ -1167,10 +1173,11 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   width: 100%;
   max-width: 1500px;
   padding: 100px;
+ 
   background-color: rgb(100, 21, 255);
   position: relative;
   overflow: hidden;
-  
+ 
   
 }
 
@@ -1180,6 +1187,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
   align-items: center;
   margin-top: 200px;
   margin-bottom: 200px;
+ 
 
 
 }
@@ -1591,6 +1599,8 @@ width: calc(100% + 100px);
   z-index: -1;
   }}
 @media (max-width: 467px) {
+
+
 .nav__bar {margin: 0}
 
   .templates__page {
@@ -1715,7 +1725,9 @@ height: 280px;
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
+
 }
+
 
 
 
