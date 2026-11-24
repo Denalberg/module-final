@@ -251,10 +251,10 @@ h1 {
 .all__elements{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 32px;
     width:100%;
-    max-width:  1200px;
+    max-width:  1600px;
     margin: 0 auto;
     padding: 20px
   }
