@@ -245,7 +245,7 @@ h1 {
 margin-left: 0px;}
 
 .purple2{color:#6415ff;
-margin-left: 0px;}}
+margin-left: 0px;}
 
 
   .template__para {
@@ -264,7 +264,7 @@ margin-left: 0px;}}
     padding: 20px
   }
   .template__img {
-    width: 70%;
+    width: 400px;
 
     opacity: 0.5;
     margin-top: 10px;
@@ -292,7 +292,7 @@ margin-left: 0px;}}
 
 .sitting__image {
   display: block;
-  width: 100%;
+  width: 500px;
   height: auto;
 }
   .email {
@@ -514,7 +514,7 @@ font-size: 30px;
   
   
   
-    height: 500px;
+    height: 400px;
     
     
 }
@@ -561,14 +561,17 @@ font-size: 30px;
 
 .quality:hover{
   cursor: pointer;
-  background-color:#3e1197
+  background-color:#3e1197;
 }
   
 
 /* Steps */
 .steps__image{
-  height: 500px
+  height: 300px;
  
+}
+.steps__images {
+  align-content: center;
 }
 .steps__grid {
   display: none;
@@ -667,7 +670,7 @@ gap: 200px;
 .values__row {
   display: flex;
   flex-direction: column;
-  margin-left: -100px;}
+;}
 
 
 .values__icon--tag {
@@ -738,7 +741,7 @@ background-color: #feb2b2;
 }
 
 .prototype{
-  height: 700px
+  height: 400px
 }
 
 /* pricing */
@@ -1176,7 +1179,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.35);
 }
 
 .love__pic{
-  height: 500px;
+  height: 300px;
 }
 
 .test__people {
@@ -1745,7 +1748,9 @@ height: 280px;
       justify-content: center;
       margin: 100px;
     }
-
+.values__row {
+  margin-left: -100px;
+}
     #pricing {
       height: auto;
       width: 100%;
