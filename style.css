@@ -1866,7 +1866,8 @@ margin-right: 200px
 }
 
 .prototype {
-  margin-right: 200px;
+  margin-right: 300px;
+  max-width: 300%;
 }
 
 .class__number1 {
