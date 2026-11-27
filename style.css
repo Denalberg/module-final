@@ -1509,7 +1509,7 @@ text-underline-offset: 10px;}
     display: flex;
     flex-direction: column;
     width:20% ;
-    margin-left: -210px
+  margin: 0 auto;
 
   }
 .steps__image{
@@ -1524,25 +1524,25 @@ text-underline-offset: 10px;}
 .value__page {
   display: flex;
   flex-direction: column;
-
   
   
 }
 
 
 .h1__values {
-font-size: 30px;}
+font-size: 30px;
 
+}
 
 .para__values {
-  font-size: 100%;
-  margin-right: 140px;
+  font-size: 20px;
+  
 
 }
 
 .values__button {
   display: block;
-  margin: 0 auto;
+  margin: 50px;
 }
 
 .values__items {
@@ -1552,11 +1552,13 @@ font-size: 30px;}
 .values__image {
   width: 100px;
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: center;
   margin-top: 100px;
 }
-
+.values__row {
+  margin: 0 auto
+}
 .pricing__all {
   display: flex;
   flex-direction: column;
@@ -1714,7 +1716,9 @@ font-size: clamp(40px, 10vw, 85px);
   
 
 
-
+.steps__text {
+  margin: 0 auto;
+}
 
 
 
